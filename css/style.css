@@ -1,0 +1,569 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+/* ----- header ------- */
+
+
+header{
+    background-color: rgb(19, 19, 19) ;
+    padding: 0 0 100px 0;
+    font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
+}
+
+header nav{
+    padding: 0 !important;
+    background-color: rgb(19, 19, 19) !important;
+    border-bottom: 0.5px solid #3c3c3c !important;
+}
+
+
+header nav ul li a{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header .headerCol {
+    position: relative;
+    top: 185px;
+}
+header svg{
+    width: 23px;
+    height: 23px;
+    margin-left: 10px;
+}
+header nav ul li {
+    padding: 15px !important;
+    border-left: 0.5px solid #3c3c3c !important;
+}
+header nav ul .lasLi {
+    border-right: 0.5px solid #3c3c3c !important;
+
+}
+header nav ul li a {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: .2em !important;
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+header nav ul li a:hover{
+    color: white !important;
+}
+
+header .bdgCol {
+    background-image: url(../img/bg.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.logo:hover{
+    color: white !important;
+}
+
+.music{
+    width: 23px;
+    height: 23px;
+    margin-left: 0px !important;
+    cursor: pointer;
+}
+
+header h1{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    font-size: 85px;
+    line-height: 90px;
+}
+
+.col-7 h1 span{
+    color: #24A89B;
+}
+
+.row{
+    justify-content: center;
+}
+
+.div1{
+    background-color: rgba(6, 6, 6, 0.728);
+    position: relative;
+    top: -200px;
+}
+
+.div1 h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 40px;
+}
+
+.div1 p{
+    color: #8A8A8B;
+    font-size: 20px;
+    text-align: center;
+    padding: 86px;
+    line-height: 35px;
+}
+
+.row1{
+    padding-top: 5%;
+}
+
+span{
+    color: #24A89B;
+    font-size: 95px;
+}
+
+h5{
+    color: white;
+    font-size: 25px;
+}
+
+p{
+    color: #8A8A8B;
+    font-size: 19px;
+    line-height: 33px;
+}
+
+.linDiv{
+    position: absolute;
+    top: -7%;
+    left: 50%;
+    height: 65px;
+    width: 0.5px;
+    background-color: #1F9388;
+}
+
+.scrollDiv{
+    position: absolute;
+    left: 78%;
+    bottom: 5%;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 4px;
+    transform: rotate(90deg);
+    transition: 0.4s;
+}
+
+.scrollDiv svg{
+    width: 17px;
+}
+
+.scrollDiv:hover{
+    color: #1F9388;
+}
+
+ .ligtbutton{
+    background: #efefef;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    margin-left: 7px;
+    transition: background 0.5s;
+}
+
+.ligtbutton span{
+    display: block;
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    transition: background 0.5s, margin-left 0.5s;
+}
+
+
+
+.active{
+    background-color: #8DA399;
+}
+
+.active span{
+    background-color: white;
+    margin-left: 23px;
+}
+
+
+/* section 1 */
+
+.sec1{
+    background-color: #1F9388;
+    padding: 100px;
+}
+
+.sec1 h3{
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 0;
+    letter-spacing: 4px;
+}
+
+.sec1 h1{
+    color: white;
+    text-align: center;
+    font-size: 53px;
+}
+
+.sec1 .col-6{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.185);
+}
+
+.row2{
+    padding-top: 10%;
+}
+
+.sec1 p{
+    color: white;
+    font-size: 19px;
+}
+
+.sec1 h4{
+    color: white;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+/* section 2 */
+
+.sec2{
+    background-color: #090909;
+}
+
+.sec2 h3{
+    text-align: center;
+    font-size: 17px;
+    color: #24A89B;
+    letter-spacing: 4px;
+}
+
+.sec2 h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+.sec2 .col-8{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.199);
+}
+
+.sec2 .row1{
+    padding-top: 7%;
+}
+
+.sec2 .imgCol img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.sec2 .col {
+    padding: 0 !important
+}
+
+.sec2 svg {
+    width: 110px;
+}
+    
+
+.imgCol{
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay{
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition: opacity 0.4s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.imgCol:hover .overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.imgCol:hover img {
+   transform: scale(1.1);
+}
+
+
+.overlay a {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width:973px) {
+   
+}
+
+.overlay h5{
+    font-size: 18px;
+    margin-top: 0 !important;
+}
+
+.overlay p{
+    margin-bottom: 3px;
+    font-size: 12px !important;
+}
+
+.overlay button {
+   position: absolute;
+   bottom: 20px;
+   left: 50px;
+   border-radius: 0 !important;
+}
+
+
+.overlay button::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 50px;
+    background-color: white;
+    left: -50px;
+    top: 18px;
+ }
+
+
+ .mainDiv{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9)
+}
+
+.mainDiv img{
+    width: 800px !important;
+    height: 600px !important;
+}
+.myImg{
+    margin: 0px auto;
+    display: block;
+    width: 80%;
+    max-width: 600px;
+}
+
+.clos{
+    position: absolute;
+    top: 70px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    cursor: zoom-out;
+  }
+
+
+ .sec2 .col1 p{
+    font-size: 30px;
+    color: white;
+    line-height: 47px;
+ }
+
+ .col1{
+    padding-top: 6%;
+ }
+
+ .vdimg{
+    width: 100%;
+    height: 560px;
+    padding: 0;
+ }
+
+ .myvd{
+    margin: 200px auto;
+ }
+
+ .row3{
+    position: relative;
+    padding-top: 10%;
+ }
+
+ .row3 a{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 52%;
+    right: 47%;
+    border-radius: 50px;
+    transition: 0.4s;
+ }
+
+ .row3 a:hover{
+    background-color: black;
+}
+
+
+ .row3 a svg{
+    width: 67%;
+    height: 100px;
+    padding-left: 29px;
+}
+
+
+.vdDiv{
+    background-color: black;
+    width: 12%;
+    height: 7%;
+    position: absolute;
+    top: 71%;
+}
+
+@media only screen and (max-width:1227px) {
+    .vdDiv {
+        width: 150px;
+    }
+    
+}
+
+.vdDiv p{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding: 9px;
+}
+
+.span1{
+    font-size: 17px;
+}
+
+.span2{
+    color: white ;
+    font-size: 13px;
+}
+
+
+.myimg{
+    border-radius: 50%;
+    width: 10%;
+}
+
+.p1{
+    margin-top: 30px;
+}
+
+.span1{
+    margin-left: 10px
+}
+/* ------- footer -------- */
+
+footer{
+    background-color: black;
+    padding: 90px;
+}
+
+footer h3{
+    text-align: center;
+    color: #24A89B;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+footer h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+footer button{
+    padding: 15px 129px;
+    background-color: #24A89B;
+    color: white;
+    border: none;
+}
+
+footer button svg{
+    width: 22px;
+}
+
+.footrh4{
+    color: #717373;
+    font-size: 17px;
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+}
+
+.footrp{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+}
+
+footer a{
+    color: white;
+    font-size: 30px;
+}
+
+.mainCont{
+    padding-top: 7%;
+}
+
+.backtop{
+    position: absolute;
+    left: 86%;
+    font-size: 10px;
+    letter-spacing: 3px;
+    transform: rotate(270deg);
+}
+
+.backtopDiv{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #24A89B;
+    position: relative;
+    position: relative;
+    left: 94%;
+    top: 72px;
+    transform: rotate(270deg);
+}
+
+.backtopDiv svg{
+    width: 47px;
+    padding: 13px 16px 14px 17px;
+}
+
+
+
+
